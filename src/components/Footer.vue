@@ -5,7 +5,7 @@
         <div class="flex items-center space-x-2 mb-4 md:mb-0">
           <ServerIcon class="w-6 h-6 text-purple-500" />
           <span class="text-xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
-            NextHost
+            AuroraVM
           </span>
         </div>
         <nav class="flex flex-wrap justify-center gap-4">
