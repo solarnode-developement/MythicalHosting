@@ -38,20 +38,20 @@ import { StarIcon } from 'lucide-vue-next'
 const reviews = [
   {
     name: 'John D.',
-    company: 'GameDevPro',
-    comment: 'NextHost provides exceptional game server hosting. The performance is unmatched, and their support team is always ready to help.',
+    company: 'Xenohost',
+    comment: 'Im just blown away that AuroraVM has been offering Ryzen VPS for this cheap! And they dont compromise on quality! ',
     rating: 5,
   },
   {
     name: 'Sarah L.',
-    company: 'TechStartup',
-    comment: 'We\'ve been using NextHost for our web applications, and the speed is incredible. The VPS plans offer great value for money.',
+    company: 'LazyHosting',
+    comment: 'We have been using AuroraVM for our web applications, and the speed is incredible. The VPS plans offer great value for money.',
     rating: 4,
   },
   {
     name: 'Michael R.',
-    company: 'DataCrunch',
-    comment: 'The dedicated servers from NextHost have been a game-changer for our data processing needs. Reliable and powerful!',
+    company: 'Solarnode Technologies',
+    comment: 'The VPS servers from AuroraVM have been a game-changer for our data processing needs. Reliable and powerful!',
     rating: 5,
   },
 ]
