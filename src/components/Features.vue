@@ -4,7 +4,7 @@
       <h2 class="text-4xl font-bold text-center mb-6 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
 Why chose us?      </h2>
       <p class="text-lg text-center text-gray-400 mb-4">
-        Here are some reasons why you should choose us for your hosting needs!
+        AuroraVM has benefits and features like no other seen. 
       </p>
       <br>
       <div class="grid md:grid-cols-3 gap-8">
@@ -33,7 +33,7 @@ const features = [
   {
     icon: ShieldIcon,
     title: 'Advanced Security',
-    description: 'Enterprise-grade firewall and DDoS protection up to 14 TBPS filtering capacity.',
+    description: 'Enterprise-grade firewall and DDoS protection up to 2+ TBPS filtering capacity.',
   },
   {
     icon: ClockIcon,
