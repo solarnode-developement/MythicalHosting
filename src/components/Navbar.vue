@@ -5,7 +5,7 @@
         <div class="flex items-center">
           <a href="#" class="flex items-center space-x-2">
             <ServerIcon class="w-8 h-8 text-purple-500" />
-            <span class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">NextHost</span>
+            <span class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">AuroraVM</span>
           </a>
         </div>
         <div class="hidden md:block">
@@ -17,7 +17,7 @@
         </div>
         <div class="hidden md:block">
           <button class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">
-            Get Started
+            Client Area
           </button>
         </div>
         <div class="md:hidden">
