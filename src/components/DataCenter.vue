@@ -8,7 +8,7 @@
         </h2>
         <p class="text-gray-400 max-w-2xl mx-auto" v-motion :initial="{ opacity: 0, y: 50 }"
           :enter="{ opacity: 1, y: 0, transition: { delay: 200 } }">
-          Powered by enterprise-grade hardware and protected by advanced security measures
+          Here at AuroraVM, we use the best hardware and software of today.
         </p>
       </div>
 
@@ -64,12 +64,12 @@ const features = [
   {
     icon: ShieldIcon,
     title: 'Advanced Security',
-    description: 'Enterprise-grade firewall and DDoS protection up to 14 TBPS filtering capacity'
+    description: 'Enterprise-grade firewall and DDoS protection up to 2 TBPS filtering capacity'
   },
   {
     icon: ZapIcon,
     title: 'High Performance',
-    description: 'Latest AMD EPYC & Intel Xeon processors with NVMe SSDs for maximum speed'
+    description: 'Latest Generation of AMD Ryzen Processors, RAID 1 NVME and DDR5 Memory'
   },
   {
     icon: NetworkIcon,
@@ -85,25 +85,25 @@ const features = [
 
 const locations = [
   {
-    city: 'Frankfurt, Germany',
+    city: 'Moscow, Russia',
     latency: '<20ms',
     uptime: '99.99%'
   },
   {
-    city: 'Bucharest, Romania',
+    city: 'Berlin, Germany',
     latency: '<25ms',
     uptime: '99.99%'
   },
   {
-    city: 'Amsterdam, Netherlands',
+    city: 'London, UK (soon)',
     latency: '<30ms',
     uptime: '99.99%'
   }
 ]
 
 const networkStats = [
-  { value: '100 Gbps', label: 'Network Capacity' },
-  { value: '14 TBPS', label: 'DDoS Protection' },
+  { value: 'Fair-use', label: 'Bandwidth' },
+  { value: '2+ TBPS', label: 'DDoS Protection' },
   { value: '<20ms', label: 'Average Latency' },
   { value: '99.99%', label: 'Network Uptime' }
 ]
