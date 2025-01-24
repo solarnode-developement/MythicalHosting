@@ -65,7 +65,7 @@ const plans = [
     popular: false,
   },
   {
-    name: 'VPS KVM-3',
+    name: 'VPS KVM-2',
     description: 'Ideal for startups or communities',
     price: '6.99',
     features: [
