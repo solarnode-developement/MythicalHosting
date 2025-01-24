@@ -3,10 +3,10 @@
     <div class="container mx-auto px-4">
       <h2
         class="text-4xl font-bold text-center mb-6 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
-        Best Hosting Plans
+        VPS Hosting
       </h2>
       <p class="text-lg text-center text-gray-400 mb-4">
-        Here are some of our best plans for your hosting needs!
+        Our latest VPS Hosting plans, just for you!
       </p>
       <br>
       <div class="grid md:grid-cols-3 gap-8">
@@ -19,7 +19,7 @@
               <p class="text-gray-400">{{ plan.description }}</p>
             </div>
             <div class="text-center mb-6">
-              <span class="text-4xl font-bold">€{{ plan.price }}</span>
+              <span class="text-4xl font-bold">£{{ plan.price }}</span>
               <span class="text-gray-400">/month</span>
             </div>
             <ul class="space-y-4 mb-8">
@@ -51,48 +51,45 @@ import { CheckIcon } from 'lucide-vue-next'
 
 const plans = [
   {
-    name: 'VPS Starter',
-    description: 'Perfect for small projects',
-    price: '4.50',
+    name: 'VPS KVM-1',
+    description: 'Perfect for small development projects',
+    price: '4.99',
     features: [
-      '1 vCPU',
-      '2 GB RAM',
-      '20 GB NVMe SSD',
-      '1 TB Transfer',
-      '1 Gbps Network',
+      '2 vCPU',
+      '6 GB RAM',
+      '100 GB NVMe SSD',
+      'Anti-DDoS',
+      'Dedicated IPv4',
     ],
-    href: '#',
+    href: 'https://my.auroravm.cloud/checkout/config/1',
     popular: false,
   },
   {
-    name: 'VPS Pro',
-    description: 'Ideal for growing businesses',
-    price: '9.99',
+    name: 'VPS KVM-3',
+    description: 'Ideal for startups or communities',
+    price: '6.99',
     features: [
-      '2 vCPU',
-      '4 GB RAM',
-      '50 GB NVMe SSD',
-      '2 TB Transfer',
-      '1 Gbps Network',
-      'DDoS Protection',
+      '3 vCPU',
+      '12 GB RAM',
+      '150 GB NVMe SSD',
+      'Anti-DDoS',
+      'Dedicated IPv4',
     ],
-    href: '#',
+    href: 'https://my.auroravm.cloud/checkout/config/2',
     popular: true,
   },
   {
-    name: 'VPS Enterprise',
-    description: 'For high-performance needs',
-    price: '19.99',
+    name: 'KVM-3',
+    description: 'For enterprise needs',
+    price: '9.99',
     features: [
       '4 vCPU',
-      '8 GB RAM',
-      '100 GB NVMe SSD',
-      '5 TB Transfer',
-      '1 Gbps Network',
-      'DDoS Protection',
-      'Dedicated IP',
+      '16 GB RAM',
+      '200 GB NVMe SSD',
+      'Anti-DDoS',
+      'Dedicated IPv4',
     ],
-    href: '#',
+    href: 'https://my.auroravm.cloud/checkout/config/3',
     popular: false,
   },
 ]
