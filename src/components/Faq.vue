@@ -40,7 +40,7 @@ const faqs = ref([
   },
   {
     question: 'Do you offer DDoS protection?',
-    answer: 'Yes, we provide advanced DDoS protection with up to 14 TBPS filtering capacity for all our hosting plans.',
+    answer: 'Yes, we provide advanced DDoS protection with up to 4.5 TBPS filtering capacity for all our hosting plans.',
     isOpen: false
   },
   {
@@ -50,12 +50,12 @@ const faqs = ref([
   },
   {
     question: 'What kind of support do you offer?',
-    answer: 'We offer 24/7 expert support via ticket system, live chat, and phone. Our team is always ready to assist you with any technical or account-related issues.',
+    answer: 'We offer 24/7 expert support via discord ticket system and email. Our team is always ready to assist you with any technical or account-related issues.',
     isOpen: false
   },
   {
     question: 'Do you offer a money-back guarantee?',
-    answer: 'Yes, we offer a 7-day money-back guarantee for all our hosting plans. If you\'re not satisfied with our service, you can request a full refund within the first week.',
+    answer: 'Sadly we do not offer refunds, only if we have made a mistake.',
     isOpen: false
   }
 ])
