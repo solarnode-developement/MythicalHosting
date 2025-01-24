@@ -6,6 +6,7 @@
     <Hero />
     <Partners />
     <HostingPlans />
+    <GamePlans />
     <Features />
     <DataCenter />
     <Reviews />
@@ -19,7 +20,7 @@ import { onMounted } from 'vue'
 import Navbar from '@/components/Navbar.vue'
 import Hero from '@/components/Hero.vue'
 import Partners from '@/components/Partners.vue'
-import HostingPlans from '@/components/HostingPlans.vue'
+import HostingPlans from '@/components/GamePlans.vue'
 import Features from '@/components/Features.vue'
 import DataCenter from '@/components/DataCenter.vue'
 import Reviews from '@/components/Reviews.vue'
