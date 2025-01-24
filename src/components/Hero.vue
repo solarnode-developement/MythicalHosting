@@ -8,7 +8,7 @@
           :initial="{ opacity: 0, y: 50 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 1000, ease: 'easeOut' } }"
         >
-          Unleash the Power of Next-Gen Hosting
+          #1 Underrated VPS Hosting.
         </h1>
 
         <p
@@ -17,10 +17,9 @@
           :initial="{ opacity: 0, y: 50 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 1000, delay: 200, ease: 'easeOut' } }"
         >
-          Experience lightning-fast performance, unparalleled security, and 24/7 expert support.
-          From game servers to enterprise solutions, we've got you covered.
+          Experience lighting fast VPS & VDS servers and absolute quality for prices that you simply cannot miss. 
         </p>
-
+        
         <div
           class="flex flex-wrap justify-center gap-4"
           v-motion
@@ -59,9 +58,9 @@
 import { ChevronDownIcon } from 'lucide-vue-next'
 
 const stats = [
-  { value: '99.99%', label: 'Uptime' },
-  { value: '24/7', label: 'Expert Support' },
-  { value: '14 TBPS', label: 'DDoS Protection' },
-  { value: '100 Gbps', label: 'Network Speed' }
+  { value: 'Scalability', label: 'We are scalable.' },
+  { value: 'Reliability', label: 'We are robust.' },
+  { value: 'Performance', label: 'We are performant.' },
+  { value: 'Affordability', label: 'We are affordable.' }
 ]
 </script>
