@@ -16,7 +16,7 @@
         </nav>
       </div>
       <div class="mt-4 text-center text-sm text-gray-500">
-        &copy; {{ new Date().getFullYear() }} AuroraVM. All rights reserved.
+        &copy; {{ new Date().getFullYear() }} AuroraVM. Based in Northern Ireland 🇮🇪. 
       </div>
     </div>
     <div
